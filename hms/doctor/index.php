@@ -39,8 +39,8 @@ exit();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Iniciar sesion medico</title>
-		
+		<title>Inicio de sesion tecnicos</title>
+		<link rel="shortcut icon" href="assets/images/favicon.png">
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
@@ -51,12 +51,13 @@ exit();
 		<link rel="stylesheet" href="assets/css/styles.css">
 		<link rel="stylesheet" href="assets/css/plugins.css">
 		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
+		<script src="https://kit.fontawesome.com/45f2bb29fa.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="login">
 		<div class="row">
 			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 				<div class="logo margin-top-30">
-				<a href="../../index.html">	<h2>CaliTex | Acceso Medicos</h2></a>
+				<a href="../../index.html">	<h2>Soporte IT | Acceso tecnicos</h2></a>
 				</div>
 
 				<div class="box-login">

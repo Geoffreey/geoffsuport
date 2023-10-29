@@ -17,9 +17,15 @@ echo "<script>window.location.href ='contact.php'</script>";
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>CaliTex | Contacto</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="Soluciones IT">
+	    <meta name="keywords" content="Seguridad electronica, soporte IT, desarrollo de software">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Soporte GeoffDeep| Contacto</title>
+		<link rel="shortcut icon" href="images/favicon.png">
 		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
 		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+		<script src="https://kit.fontawesome.com/45f2bb29fa.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<!--start-wrap-->
@@ -29,7 +35,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 				<div class="wrap">
 				<!--start-logo-->
 				<div class="logo">
-		<a href="index.html" style="font-size: 30px;">Hospital Luz de Vida</a> 
+		<a href="index.html" style="font-size: 30px; color: white;">Soporte GeoffDeep</a> 
 				</div>
 				<!--end-logo-->
 				<!--start-top-nav-->
@@ -52,11 +58,11 @@ echo "<script>window.location.href ='contact.php'</script>";
 				<div class="col span_1_of_3">
 					
       			<div class="company_address">
-				     	<h2>Direccion hospital  :</h2>
-						   		<p>1ra. Calle 6-45 Zona 1, San Jose Pinula</p>
-						   		<p>Guatemala</p>
-				   		<p>Telefono:(+502)6663-6900</p>
-				 	 	<p>Email: <span>grupodecirugia@yahoo.com</span></p>
+				     	<h2>Datos de contacto:</h2>
+						 <p style="text-align:center"><i class="fa-solid fa-street-view" style="color: #fb8d0e;"></i> 6 avenida 5-84 zona 1, Colonia la Castellana, El Tejar</p>
+						 <p>Chimaltengo, Guatemala</p>
+				   		 <p><i class="fa-solid fa-phone" style="color: #fb8d0e;"></i>(+502)4841-0140</p>
+						 <p><i class="fa-solid fa-envelope" style="color: #fb8d0e;"></i><span style="color: white"> info@geoffdeep.pw</span></p>
 				   	
 				   </div>
 				</div>				
@@ -90,21 +96,21 @@ echo "<script>window.location.href ='contact.php'</script>";
 			  	 <div class="clear"> </div>
 	</div>
 	<div class="clear"> </div>
-			</div>
+	</div>
 	      <div class="clear"> </div>
 		   <div class="footer">
-		   	 <div class="wrap">
+		   	 <!--<div class="wrap">
 		   	<div class="footer-left">
 		   			<ul>
 						<li><a href="index.html">Inicio</a></li>
 						
 						<li><a href="contact.php">Contacto</a></li>
 					</ul>
-		   	</div>
+		   	</div>-->
 		  
 		   	<div class="clear"> </div>
 		   </div>
-		   </div>
+	</div>
 		<!--end-wrap-->
 	</body>
 </html>

@@ -27,7 +27,7 @@
 											<i class="ti-user"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title">Medicos</span><i class="icon-arrow"></i>
+											<span class="title">tecnicos</span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
@@ -44,7 +44,7 @@
 									</li>
 									<li>
 										<a href="Manage-doctors.php">
-											<span class="title">Admin medicos</span>
+											<span class="title">Admin tecnicos</span>
 										</a>
 									</li>
 
@@ -79,7 +79,7 @@
 											<i class="ti-user"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title">Pacientes</span><i class="icon-arrow"></i>
+											<span class="title">Usuarios</span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
@@ -87,7 +87,7 @@
 
 									<li>
 										<a href="manage-patient.php">
-											<span class="title">Admin pacientes</span>
+											<span class="title">Admin Usuarios</span>
 										</a>
 									</li>
 
@@ -146,7 +146,7 @@
 											<i class="ti-list"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title">Reg. sesiones medicos</span>
+											<span class="title">Reg. sesiones tecnicos</span>
 										</div>
 									</div>
 								</a>

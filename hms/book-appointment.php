@@ -135,7 +135,7 @@ function getfee(val) {
 
 														<div class="form-group">
 															<label for="doctor">
-																Medicos
+																tecnicos
 															</label>
 						                                    <select name="doctor" class="form-control" id="doctor" onChange="getfee(this.value);" required="required">
 						                                    <option value="">Seleccionar medico</option>

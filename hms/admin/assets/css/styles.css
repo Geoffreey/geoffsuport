@@ -4854,7 +4854,7 @@ a.text-light:hover {
 /*  Forms
 /* ---------------------------------------------------------------------- */
 fieldset {
-  background: #ffffff;
+  background: #f0740f;
   border: 1px solid #e6e8e8;
   border-radius: 5px;
   margin: 20px 0 20px 0;
@@ -10933,6 +10933,11 @@ nav.links a {
 .main-login {
   margin-top: 0;
   position: relative;
+  background: #070523;
+}
+
+.login{
+  background-color: #070523;
 }
 @media (max-width: 991px) {
   .main-login {
@@ -10945,7 +10950,7 @@ nav.links a {
 .main-login .box-login,
 .main-login .box-forgot,
 .main-login .box-register {
-  background: #ffffff;
+  background: #070523;
   border-radius: 5px;
   overflow: hidden;
   padding: 15px;
@@ -12855,6 +12860,9 @@ td.small-width {
     text-align: center;
     padding: 20px 0;
   }
+}
+.row{
+  background-color: #070523;
 }
 #page-title .row {
   margin: 0 15px;

@@ -53,14 +53,14 @@ return true;
 		<div class="row">
 			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 				<div class="logo margin-top-30">
-				<a href="../index.html"><h2>CaliTex | Reestableser contraseña pacientes</h2></a>
+				<a href="../index.html"><h2>CaliTex | Reestableser contraseña Usuarios</h2></a>
 				</div>
 
 				<div class="box-login">
 					<form class="form-login" name="passwordreset" method="post" onSubmit="return valid();">
 						<fieldset>
 							<legend>
-							Reestableser contraseña pacientes
+							Reestableser contraseña Usuarios
 							</legend>
 							<p>
 							Por favor establece tu nueva contraseña.<br />

@@ -170,7 +170,7 @@ img {
 }
 /*end reset*/
 body {
-  background: #f8fbfb;
+  background: #070523;
 }
 .wrap {
   width: 70%;
@@ -188,30 +188,28 @@ body {
 }
 .top-nav ul li {
   display: inline-block;
-  float: left;
-  border-left: 1px solid rgb(31, 132, 224);
+  border-left: 1px solid rgb(224, 128, 50);
 }
 .top-nav ul li:first-child {
   border-left: none;
 }
 .top-nav ul li a {
   font-family: "Ropa Sans", sans-serif;
-  background: #3391e7;
+  background: #ee7e15;
   color: #fff;
   text-transform: uppercase;
   padding: 30px;
   display: block;
 }
-.top-nav ul li a:hover {
-}
+
 .top-nav li.active > a,
 .top-nav li > a:hover {
-  background: rgb(50, 133, 209);
+  background: rgb(247, 120, 16);
   border-left-color: rgb(50, 133, 209);
 }
 /*-----content-grids-----*/
 .content-grids {
-  background: #3391e7;
+  background: #070523;
   padding: 10px 0px;
 }
 /*  GRID OF THREE   ============================================================================= */
@@ -235,7 +233,7 @@ body {
   display: block;
   float: left;
   margin: 0% 0 0% 1.6%;
-  background: #f1f6f9;
+  background: #e76d0a;
 }
 .listimg {
   display: block;
@@ -267,7 +265,7 @@ body {
   display: block;
 }
 .list_1_of_2 h3 {
-  color: #3391e7;
+  color: #f7f7f7;
   margin-bottom: 0.2em;
   margin-top: 0;
   font-size: 2em;
@@ -293,7 +291,7 @@ body {
 }
 .list_1_of_2 .button a:hover {
   text-decoration: none;
-  color: #3391e7;
+  color: #ffffff;
 }
 
 /***** Media Quries *****/
@@ -369,8 +367,8 @@ body {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
-  background: #fff;
-  border: 1px solid #edf3f3;
+  background: #070523;
+  border: 1px solid #edeff3;
 }
 .col_1_of_3:first-child {
   margin-left: 0;
@@ -500,7 +498,7 @@ body {
 }
 /*----footer-----*/
 .footer {
-  background: #e0e7eb;
+  background: #070523;
   padding: 15px 4px;
 }
 .footer-left {
@@ -976,7 +974,7 @@ input[type="email"],
   font-family: Arial, Helvetica, sans-serif;
   padding: 0.2em 0;
   font-size: 0.8125em;
-  color: rgb(155, 155, 155);
+  color: rgb(255, 255, 255);
   line-height: 1.5em;
 }
 .company_address p span {
@@ -986,6 +984,7 @@ input[type="email"],
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
+
 .map {
   border: 1px solid #c7c7c7;
   margin-bottom: 15px;

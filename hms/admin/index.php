@@ -32,7 +32,7 @@ exit();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Inicio de sesion de admin</title>
+		<title>Inicio de sesion admin</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -49,12 +49,13 @@ exit();
 		<link rel="stylesheet" href="assets/css/styles.css">
 		<link rel="stylesheet" href="assets/css/plugins.css">
 		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
+		<link rel="shortcut icon" href="assets/images/favicon.png">
 	</head>
 	<body class="login">
-		<div class="row">
+		<div class="row" >
 			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 				<div class="logo margin-top-30">
-				<h2>Inicio de sesion de admin</h2>
+				<h2>Soporte IT | Inicio de sesion admin</h2>
 				</div>
 
 				<div class="box-login">

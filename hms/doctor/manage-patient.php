@@ -9,7 +9,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Medico | Administrar pacientes</title>
+		<title>Medico | Administrar Usuarios</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -37,14 +37,14 @@ check_login();
 <section id="page-title">
 <div class="row">
 <div class="col-sm-10">
-<h1 class="mainTitle">Medico | Administrar pacientes</h1>
+<h1 class="mainTitle">Medico | Administrar Usuarios</h1>
 </div>
 <ol class="breadcrumb">
 <li>
 <span>Medico</span>
 </li>
 <li class="active">
-<span>Administrar pacientes</span>
+<span>Administrar Usuarios</span>
 </li>
 </ol>
 </div>
@@ -52,7 +52,7 @@ check_login();
 <div class="container-fluid container-fullw bg-white">
 <div class="row">
 <div class="col-md-14">
-<h5 class="over-title margin-bottom-15">Administrar <span class="text-bold"> Pacientes</span></h5>
+<h5 class="over-title margin-bottom-15">Administrar <span class="text-bold"> Usuarios</span></h5>
 	
 <table class="table table-hover" id="sample-table-1">
 <thead>

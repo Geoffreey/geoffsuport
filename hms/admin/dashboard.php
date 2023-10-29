@@ -80,7 +80,7 @@ $num_rows                 = mysqli_num_rows($result);
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle">Administrador de medicos</h2>
+											<h2 class="StepTitle">Administrador de tecnicos</h2>
 
 											<p class="cl-effect-1">
 												<a href="manage-doctors.php">
@@ -88,7 +88,7 @@ $num_rows                 = mysqli_num_rows($result);
 $num_rows1                 = mysqli_num_rows($result1);
 {
     ?>
-											Total de medicos :<?php echo htmlentities($num_rows1);} ?>
+											Total de tecnicos :<?php echo htmlentities($num_rows1);} ?>
 												</a>
 
 											</p>
@@ -120,7 +120,7 @@ $num_rows2             = mysqli_num_rows($sql);
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle">Administrador de pacientes</h2>
+											<h2 class="StepTitle">Administrador de Usuarios</h2>
 
 											<p class="links cl-effect-1">
 												<a href="manage-patient.php">
@@ -128,7 +128,7 @@ $num_rows2             = mysqli_num_rows($sql);
 $num_rows     = mysqli_num_rows($result);
 {
     ?>
-Total de pacientes:<?php echo htmlentities($num_rows);
+Total de Usuarios:<?php echo htmlentities($num_rows);
 } ?>
 </a>
 											</p>
