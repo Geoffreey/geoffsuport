@@ -4854,7 +4854,7 @@ a.text-light:hover {
 /*  Forms
 /* ---------------------------------------------------------------------- */
 fieldset {
-  background: #ffffff;
+  background: #f0740f;
   border: 1px solid #e6e8e8;
   border-radius: 5px;
   margin: 20px 0 20px 0;
@@ -4868,7 +4868,7 @@ fieldset .form-group {
 fieldset legend {
   background: inherit;
   font-family: "Lato", sans-serif;
-  color: #007aff;
+  color: #ffffff;
   font-size: 15px;
   left: 10px;
   padding: 0 10px;
@@ -6240,8 +6240,8 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-  background-color: #007aff;
-  border-color: #007aff;
+  background-color: #070523;
+  border-color: whitesmoke;
   color: #ffffff;
 }
 .open .btn-primary.dropdown-toggle {
@@ -10933,7 +10933,13 @@ nav.links a {
 .main-login {
   margin-top: 0;
   position: relative;
+  background-color: #070523;
 }
+
+.login{
+  background-color: #070523;
+}
+
 @media (max-width: 991px) {
   .main-login {
     margin-top: 65px;
@@ -10945,7 +10951,7 @@ nav.links a {
 .main-login .box-login,
 .main-login .box-forgot,
 .main-login .box-register {
-  background: #ffffff;
+  background: #070523;
   border-radius: 5px;
   overflow: hidden;
   padding: 15px;
@@ -12856,9 +12862,14 @@ td.small-width {
     padding: 20px 0;
   }
 }
+.row{
+  background-color: #070523;
+}
+
 #page-title .row {
   margin: 0 15px;
 }
+
 #page-title h1 {
   color: #333;
   font-size: 28px;

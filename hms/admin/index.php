@@ -64,7 +64,7 @@ exit();
 							<legend>
 								Iniciar sesion en su cuenta
 							</legend>
-							<p>
+							<p style="color: white">
 								Por favro ingrese su nombre y contraseña para iniciar sesion.<br />
 								<span style="color:red;"><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?></span>
 							</p>

@@ -38,7 +38,7 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 	<head>
 		<title>Inicio de sesion usuario</title>
-
+		<link rel="shortcut icon" href="assets/images/favicon.png">
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">

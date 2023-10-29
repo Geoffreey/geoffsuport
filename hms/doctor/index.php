@@ -66,7 +66,7 @@ exit();
 							<legend>
 								Iniciar sesion en su cuenta
 							</legend>
-							<p>
+							<p style="color: white">
 							Por favor ingrese su correo y contraseña para iniciar sesión.<br />
 								<span style="color:red;"><?php echo $_SESSION['errmsg']; ?><?php echo $_SESSION['errmsg']="";?></span>
 							</p>
@@ -80,7 +80,7 @@ exit();
 									<input type="password" class="form-control password" name="password" placeholder="Password">
 									<i class="fa fa-lock"></i>
 									 </span>
-									 <a href="forgot-password.php">
+									 <a href="forgot-password.php" style="color: white">
 									 Has olvidado tu contraseña?
 								</a>
 							</div>
