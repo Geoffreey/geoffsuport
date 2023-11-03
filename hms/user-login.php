@@ -60,10 +60,10 @@ if (isset($_POST['submit'])) {
 				<div class="box-login">
 					<form class="form-login" method="post">
 						<fieldset>
-							<legend>
+							<legend style="color: white">
 								Iniciar sesion en su cuenta
 							</legend>
-							<p>
+							<p style="color: white">
 								Por favor ingrese su numbre y contraseña para iniciar sesion.<br />
 								<span style="color:red;"><?php echo $_SESSION['errmsg']; ?><?php echo $_SESSION['errmsg'] = ""; ?></span>
 							</p>
@@ -76,7 +76,7 @@ if (isset($_POST['submit'])) {
 								<span class="input-icon">
 									<input type="password" class="form-control password" name="password" placeholder="Password">
 									<i class="fa fa-lock"></i>
-									 </span><a href="forgot-password.php">
+									 </span><a href="forgot-password.php" style="color: white">
 									Has olvidado tu contraseña ?
 								</a>
 							</div>
@@ -86,9 +86,9 @@ if (isset($_POST['submit'])) {
 									Acceso <i class="fa fa-arrow-circle-right"></i>
 								</button>
 							</div>
-							<div class="new-account">
+							<div class="new-account" style="color: white">
 								No tienes una cuenta todavia?
-								<a href="registration.php">
+								<a href="registration.php" style="color: white">
 									Crea una cuenta
 								</a>
 							</div>

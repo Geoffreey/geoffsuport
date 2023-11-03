@@ -4562,7 +4562,7 @@ a.text-light:hover {
 /*  Forms
 /* ---------------------------------------------------------------------- */
 fieldset {
-  background: #ffffff;
+  background: #f0740f;
   border: 1px solid #e6e8e8;
   border-radius: 5px;
   margin: 20px 0 20px 0;
@@ -5808,8 +5808,8 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .btn-primary {
-  background-color: #007AFF;
-  border-color: #007AFF;
+  background-color: #070523;
+  border-color: whitesmoke;
   color: #ffffff;
 }
 .open .btn-primary.dropdown-toggle {
@@ -9362,7 +9362,13 @@ nav.links a {
 .main-login {
   margin-top: 0;
   position: relative;
+  background: #070523;
 }
+
+.login{
+  background-color: #070523;
+}
+
 @media (max-width: 991px) {
   .main-login {
     margin-top: 65px;
@@ -9372,7 +9378,7 @@ nav.links a {
   padding: 0 10px;
 }
 .main-login .box-login, .main-login .box-forgot, .main-login .box-register {
-  background: #FFFFFF;
+  background: #070523;
   border-radius: 5px;
   overflow: hidden;
   padding: 15px;
